@@ -1,13 +1,10 @@
-/**
+package lesson1; /**
  * Copyright © 2014, Oracle and/or its affiliates. All rights reserved.
  * <p>
  * JDK 8 MOOC Lesson 1 homework
  */
 
 import java.util.*;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
