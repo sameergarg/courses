@@ -34,6 +34,7 @@ public class RandomWords {
       try (BufferedReader reader = Files.newBufferedReader(Paths.get("word.txt"))) {
       sourceWords = reader
               .lines()
+              .parallel()
               .collect(toList());
       
       System.out.println("Loaded " + sourceWords.size() + " words");
